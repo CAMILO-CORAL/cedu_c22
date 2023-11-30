@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+    width: 100%;
+}
+
+header {
+    background-color: #8c8c8c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
+h1{
+    font-family: sans-serif;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 10px;
+}
+#map{
+    width: auto;
+    height: 82%;
+}
+#norte{
+	position:fixed;
+	width:2%;
+	left: 3%;
+	padding: 1.2%;
+}
+footer {
+    background-color: #8c8c8c;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 25px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
